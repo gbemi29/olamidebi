@@ -1,0 +1,55 @@
+{
+  "name": "GanttChartbyMAQSoftware",
+  "version": "3.0.0",
+  "description": "A Gantt Chart with added grid, having the capability to provide additional details of task or schedule along with KPIs.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maqsoftware/PowerBI-visuals"
+  },
+  "keywords": [
+    "powerbi-visuals"
+  ],
+  "scripts": {
+    "postinstall": "typings install",
+    "typings": "typings",
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "node node_modules/tslint/bin/tslint \"+(src|test)/**/*.ts\"",
+    "pretest": "pbiviz package --resources --no-minify --no-pbiviz"
+  },
+  "author": {
+    "name": "MAQ Software",
+    "email": "support@maqsoftware.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maqsoftware/PowerBI-visuals/issues"
+  },
+  "homepage": "https://github.com/maqsoftware/PowerBI-visuals",
+  "devDependencies": {},
+  "dependencies": {
+    "@types/d3": "^3.5.41",
+    "acorn": "^6.0.5",
+    "d3": "^3.5.17",
+    "eslint": "^4.19.1",
+    "globalize": "0.1.0-a2",
+    "https-proxy-agent": "^2.2.1",
+    "is-iso-date": "0.0.1",
+    "jquery": "3.1.1",
+    "lodash": "^4.17.11",
+    "powerbi-visuals-tools": "^3.0.10",
+    "powerbi-visuals-utils-chartutils": "^2.3.1",
+    "powerbi-visuals-utils-colorutils": "^2.1.0",
+    "powerbi-visuals-utils-dataviewutils": "^2.1.1",
+    "powerbi-visuals-utils-formattingutils": "^4.1.2",
+    "powerbi-visuals-utils-interactivityutils": "^5.4.0",
+    "powerbi-visuals-utils-svgutils": "^1.2.0",
+    "powerbi-visuals-utils-tooltiputils": "^0.3.0",
+    "powerbi-visuals-utils-typeutils": "^1.2.0",
+    "svg": "^0.1.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2",
+    "typings": "^2.1.1"
+  }
+}
